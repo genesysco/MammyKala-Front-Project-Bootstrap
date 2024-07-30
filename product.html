@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.rtl.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<title>محصول</title>
+</head>
+<body>
+
+
+
+
+
+
+
+	<!-- ----------------------------- Header ----------------------------------- -->
+	<header>
+		<div class="container-fluid">
+			<div class="row bg-white p-3 shadow-sm">
+				<div class="col-12 col-sm-4 col-lg-2">
+					<span class="logo"></span>
+				</div>
+
+				<div class="col-sm-8 col-lg-6 ps-lg-5 my-3 my-sm-0">
+					<div class="input-group ps-lg-5">
+						<input type="text" name="search" class="form-control" placeholder="نام کالا , برند و یا دسته مورد نظر خود را جستجو کنید...">
+						<span class="btn btn-danger"><i class="bi-search"></i></span>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-4 col-lg-2 mt-sm-2 mt-lg-0 text-sm-center">
+					<div class="dropdown">
+					  <button class="btn btn-outline-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+					    ورورد / ثبت نام
+					  </button>
+					  <ul class="dropdown-menu">
+					    <li>
+					    	<a class="btn btn-info text-white ms-2" href="#">
+					    	ورود به پنل کاربری
+						    </a>
+					    </li>
+					    <li class="p-2 new-user-register">
+					    	کاربر جدید هستید ؟
+						    <a href="#">ثبت نام</a>
+					    </li>
+				        <li><hr class="dropdown-divider"></li>
+					    <li><a class="dropdown-item" href="#">
+					    	<i class="bi bi-person"></i>
+					    	پروفایل
+					    </a></li>
+					    <li><a class="dropdown-item" href="#">
+					    	<i class="bi-basket"></i>
+					    	پیگیری سفارش
+					    </a></li>
+					  </ul>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-4 col-lg-2 mt-sm-2 mt-lg-0 text-sm-center">
+					<a href="#" class="btn btn-outline-info">
+						<i class="bi-cart"></i>
+						سبد خرید 0
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- ----------------------------- End of Header ----------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ----------------------------- nav ----------------------------------- -->
+
+	<nav class="navbar bg-secondary navbar-expand-sm text-white">
+
+		<button
+        class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+	      >
+			<span class="navbar-toggler-icon border-1"></span>
+			<span class="fs-6">دسته بندی محصولات</span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			
+			<ul class="navbar-nav px-2 px-md-0 ms-lg-5">
+				<li class="navbar-item me-lg-3">
+					<a href="#" class="nav-link text-white dropdown-toggle"  data-bs-toggle="dropdown">سوپر مارکت</a>
+					<div class="container-fluid dropdown-menu dropdown-menu-mine shadow-sm rounded-bottom border-0">
+						<div class="row">
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									تنقلات
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">چیپس</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">پفک</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">بستنی</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">آدامس</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">بادام زمینی</a>
+									</li>
+								</ul>
+							</div>
+
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									شوینده
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">شامپوی بدن</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">شامپوی سر</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">صابون</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">سفید کننده</a>
+									</li>
+								</ul>
+							</div>
+
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									لوازم بهداشتی
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">مسواک</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">حوله</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">رخت آویز حمام</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<!-- Hyper Market's List -->
+
+				<li class="navbar-item">
+					<a href="#" class="nav-link text-white dropdown-toggle"  data-bs-toggle="dropdown">هایپر مارکت</a>
+					<div class="container-fluid dropdown-menu dropdown-menu-mine shadow-sm rounded-bottom border-0">
+						<div class="row">
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									تنقلات
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">چیپس</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">پفک</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">بستنی</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">آدامس</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">بادام زمینی</a>
+									</li>
+								</ul>
+							</div>
+
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									شوینده
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">شامپوی بدن</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">شامپوی سر</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">صابون</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">سفید کننده</a>
+									</li>
+								</ul>
+							</div>
+
+
+							<div class="col-6 col-md-3 p-sm-3">
+								<p class="text-info menu-item-type fs-5">
+									<i class="bi-chevron-left"></i>
+									لوازم بهداشتی
+								</p>
+								<ul class="list-group list-unstyled ps-2">
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">مسواک</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">حوله</a>
+									</li>
+									<li class="list-group-item border-0">
+										<a href="#" class="text-decoration-none text-muted">رخت آویز حمام</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<!-- ----------------------------- End of nav ----------------------------------- -->
+
+
+
+
+	<!-- ----------------------------- Bread Crumb ------------------------------------ -->
+	<section id="breadcrumb">
+
+		<div class="container-fluid mt-2">
+			<div class="row">
+				<div class="col-12 p-3">
+					<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+					    <li class="breadcrumb-item">
+					    	<a href="#" class="text-decoration-none text-secondary link-body-emphasis">
+					    	فروشگاه اینترنتی ممی کالا
+						    </a>
+						</li>
+					    <li class="breadcrumb-item">
+					    	<a href="#" class="text-decoration-none text-secondary link-body-emphasis">
+					    	کالای دیجیتال
+						    </a>
+						</li>
+					    <li class="breadcrumb-item">
+					    	<a href="#" class="text-decoration-none text-secondary link-body-emphasis">
+					    	کامپیوتر و تجهیزات جانبی
+						    </a>
+						</li>
+					    <li class="breadcrumb-item">
+					    	<a href="#" class="text-decoration-none text-secondary link-body-emphasis">
+					    	هدفون , هدست , میکروفون
+						    </a>
+						</li>
+					    <li class="breadcrumb-item active" aria-current="page">
+					    	<a href="#" class="text-decoration-none text-muted link-body-emphasis">
+					    		هندزفری بلوتوث مدل : HBQ-I7
+					    	</a>
+					    </li>
+					  </ol>
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<!-- -------------------------- End of Bread Crumb ------------------------------------ -->
+
+
+
+
+
+	<!-- ------------------------------ Product ------------------------------------ -->
+	<section id="product" class="bg-white border mb-5">
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-12 col-lg-4">
+					
+					<div class="row">
+						<div class="col-12 col-sm-2 col-md-2 mt-3 mt-sm-5 ps-3 text-center">
+							<ul class="list-unstyled">
+								<li class="mb-sm-3 d-inline-block">
+									<a href="#" class="border border-2 rounded-3 px-2 pt-2 link-body-emphasis">
+										<i class="bi bi-heart"></i>
+									</a>
+								</li>
+								<li class="mb-sm-3 d-inline-block">
+									<a href="#" class="border border-2 rounded-3 px-2 pt-2 link-body-emphasis">
+										<i class="bi bi-share"></i>
+									</a>
+								</li>
+								<li class="mb-sm-3 d-inline-block">
+									<a href="#" class="border border-2 rounded-3 px-2 pt-2 link-body-emphasis">
+										<i class="bi bi-hdd-rack"></i>
+									</a>
+								</li>
+								<li class="mb-sm-3 d-inline-block">
+									<a href="#" class="border border-2 rounded-3 px-2 pt-2 link-body-emphasis">
+										<i class="bi bi-hourglass"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- ------- End of Mini Icons ----------- -->
+
+
+
+						<!-- ---------- Product Image Gallery ------- -->
+
+						<div class="col-12 col-sm-10 mt-0 mt-sm-2 mb-5">
+
+							<div class="row product-big-image align-items-center">
+								<div class="col-12">
+									<img src="images/han1.jpg" 
+									class="img-fluid" 
+									alt="AirPod" 
+									id="big-Image">
+								</div>
+							</div>
+
+
+							<div class="row align-items-center image-thumbnails">
+								<div class="col-3">
+									<img src="images/han4.jpg" 
+									class="img-fluid border rounded-3 p-2 little-Image" 
+									alt="AirPod4">
+								</div>
+
+								<div class="col-3">
+									<img src="images/han1.jpg" 
+									class="img-fluid border rounded-3 p-2 little-Image" 
+									alt="AirPod">
+								</div>
+
+								<div class="col-3">
+									<img src="images/han2.jpg" 
+									class="img-fluid border rounded-3 p-2 little-Image" 
+									alt="AirPod2">
+								</div>
+
+								<div class="col-3">
+									<img src="images/han3.jpg" 
+									class="img-fluid border rounded-3 p-2 little-Image" 
+									alt="AirPod3">
+								</div>
+							</div>
+						</div>
+						<!-- ---------- End of Product Image Gallery ------- -->
+					</div>
+
+				</div>
+				<!-- ------- End of Mini Icons & Product Image Gallery ----------- -->
+
+
+
+
+				<!-- ------- Product Details ----------- -->
+				<div class="col-12 col-lg-8">
+
+					<div class="row">
+						<div class="col-12 pt-4">
+							<h4 class="h5 pb-2">
+								 هندزفری بلوتوث مدل HBQ-I7 
+							</h4>
+							<span class="text-secondary fs-6">
+								HBQ-I7 Bluetooth Handsfree 
+							</span>
+							<div class="border-bottom pt-2 border-light-subtle"></div>
+						</div>
+					</div>
+
+
+					<div class="row my-3">
+						<div class="col-12 col-md-8 col-lg-9">
+							<span>
+								برند : سامسونگ
+							</span>
+							<span class="ms-3">
+								دسته بندی : 
+								<a href="#" class="text-decoration-none">
+									هندزفری
+								</a>
+							</span>
+
+							<div class="clearfix my-3"></div>
+
+							<span class="text-muted">
+								انتخاب رنگ :
+								
+								<span class="radio border rounded-3 me-2 p-2">
+									<span class="form-switch">
+										<input type="radio" name="color" class="form-check-input" value="white" id="white">
+										<label for="white">
+											سفید
+										</label>
+									</span>
+								</span>
+								<span class="radio border rounded-3 me-2 p-2">
+									<span class="form-switch">
+										<input type="radio" name="color" class="form-check-input" value="black" id="black">
+										<label for="black">
+											سیاه
+										</label>
+									</span>
+								</span>
+							</span>
+
+							<div class="clearfix my-4"></div>
+
+							<p class="text-secondary">
+								<i class="bi-check-circle-fill text-success"></i>
+								سرویس ویژه دیجی کالا : ۷ روز تضمین تعویض کالا 
+							</p>
+
+							<div class="border-bottom my-3 border-light-subtle"></div>
+
+							<p class="text-muted">
+								<i class="bi-shop text-info"></i>
+								فروشنده : 
+								<a href="#" class="text-decoration-none seller">
+									بوسمن
+								</a>
+							</p>
+							<p class="text-muted ms-3">
+								رضایت خرید : ۸۵ ٪
+							</p>
+							<img src="images/DG.svg" alt="Mami Kala" class="img-fluid">
+							<span class="text-muted">
+								بسته بندی و ارسال توسط ممی کالا
+							</span>
+							<div class="clearfix my-3"></div>
+							<img src="images/warehouse.jpg" alt="Deliver" class="img-fluid me-2">
+							<span class="text-info">
+								آماده ارسال
+							</span>
+
+							<div class="border-bottom my-3 border-light-subtle"></div>
+
+							<p class="text-danger fs-3">
+								۱۵۰۰,۰۰۰ تومان
+							</p>
+							<a href="#" class="btn btn-info btn-lg text-white">
+								<i class="bi-cart"></i>
+								افزودن به سبد خرید
+							</a>
+						</div>
+
+
+
+
+						<!-- ------- Product Options ----------- -->
+						<div class="col-7 col-sm-5 col-md-4 col-lg-3 my-3 mx-auto">
+							<div class="border rounded-3 p-2 radio">
+								<div class="row align-items-center">
+									<div class="col-3 text-center">
+										<i class="bi-shop fs-1 text-secondary"></i>
+									</div>
+									<div class="col-9 text-center mt-3">
+										<p class="text-info ps-2 breadcrumb">
+											فروشنده / گارانتی این کالا ۷
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<p class="text-center mt-3">
+								ویژگی های محصول 
+							</p>
+							<ul class="product-Options list-unstyled">
+								<li>قابلیت پخش موسیقی : دارد</li>
+								<li>قابلیت کنترل صدا و موزیک : ندارد</li>
+								<li>راهنمایی صوتی : ندارد</li>
+								<li>
+									<a href="#" class="text-decoration-none seller">
+										موارد بیشتر +
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- ------- Product Details ----------- -->
+
+
+			</div>
+		</div>
+		
+	</section>
+	<!-- -------------------------- End of Product ------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- ------------------------------ Options ------------------------------------ -->
+	<section id="options" class="mb-5">
+		<div class="container bg-white py-4 ps-3">
+			<div class="row align-items-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 gy-3">
+				<div class="col">
+					<img src="images/express.svg" alt="Express" class="img-fluid">
+					<span class="text-muted">
+						امکان تحویل اکسپرس
+					</span>
+				</div>
+
+				<div class="col">
+					<img src="images/24-7.svg" alt="Express" class="img-fluid">
+					<span class="text-muted">
+						ایام کاری شبانه روزی ۷ روز
+					</span>
+				</div>
+
+				<div class="col">
+					<img src="images/Tahvil-Gape.svg" alt="Express" class="img-fluid">
+					<span class="text-muted">
+						پرداخت درب منزل
+					</span>
+				</div>
+
+				<div class="col">
+					<img src="images/Tahvil-7.svg" alt="Express" class="img-fluid">
+					<span class="text-muted">
+						تحویل فوری
+					</span>
+				</div>
+
+				<div class="col">
+					<img src="images/Garranti.svg" alt="Express" class="img-fluid">
+					<span class="text-muted">
+						امکان تحویل اکسپرس
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- -------------------------- End of Options ------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- -------------------------------  Footer Top --------------------------------------- -->
+
+	<section id="footer-top">
+
+		<div class="container-fluid">
+
+			<div class="row text-center py-3">
+
+				<div class="col-6 col-md-3">
+					<img src="images/serv3.svg" alt="Services" class="img-fluid">
+					<p class="text-muted mt-2">ضمانت اصل بودن کالا</p>
+				</div>
+
+				<div class="col-6 col-md-3">
+					<img src="images/serv1.svg" alt="Services" class="img-fluid">
+					<p class="text-muted mt-2">۷ روز ضمانت بازگشت</p>
+				</div>
+
+				<div class="col-6 col-md-3">
+					<img src="images/serv2.svg" alt="Services" class="img-fluid">
+					<p class="text-muted mt-2">پرداخت درب منزل</p>
+				</div>
+
+				<div class="col-6 col-md-3">
+					<img src="images/serv5.svg" alt="Services" class="img-fluid">
+					<p class="text-muted mt-2">پشتیبانی همه روزه</p>
+				</div>
+
+			</div>
+
+			<div class="container border-bottom"></div>
+			
+		</div>
+
+
+
+
+
+		<div class="container">
+			<div class="row my-4">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<h6 class="mb-4 h5">
+						<a href="#" class="text-secondary text-decoration-none">راهنمایی خرید از ممی کالا</a>
+					</h6>
+					<ul class="list-unstyled lh-lg">
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								نحوه ثبت سفارش
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								رویه ارسال سفارش
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								شیوه های پرداخت
+							</a>
+						</li>
+					</ul>
+				</div>
+
+
+
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<h6 class="mb-4 h5">
+						<a href="#" class="text-secondary text-decoration-none">خدمات مشتریان</a>
+					</h6>
+					<ul class="list-unstyled lh-lg">
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								پاسخ به سوالات متداول
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								رویه های بازگردانی کالا
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								شرایط استفاده
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								حریم خصوصی
+							</a>
+						</li>
+					</ul>
+				</div>
+
+
+
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<h6 class="mb-4 h5">
+						<a href="#" class="text-secondary text-decoration-none">با ممی کالا</a>
+					</h6>
+					<ul class="list-unstyled lh-lg">
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								فروش در ممی کالا
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								همکاری با سازمان ها
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								فرصت های شغلی
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								تماس با ممی کالا 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="text-decoration-none text-muted">
+								درباره ممی کالا
+							</a>
+						</li>
+					</ul>
+				</div>
+
+
+
+				<div class="col-sm-6 col-md-5 col-lg-3">
+					<p class="text-muted">
+						از تخفیف ها و جدیدترین های ممی کالا باخبر شوید: 
+					</p>
+					<form action="#">
+						<div class="input-group">
+							<input type="text" class="form-control" 
+							placeholder="آدرس ایمیل خود را وارد کنید">
+							<input type="submit" value="ارسال" class="btn btn-info text-white">
+						</div>
+					</form>
+					<p class="text-muted my-3">
+						ممی کالا را در شبکه های اجتماعی دنبال کنید:  
+					</p>
+					
+					<a href="#" class="text-decoration-none d-inline-block">
+						<p class="insta text-white insta-icon text-center rounded-3 bi-instagram fs-2">
+						</p>
+					</a>
+					<a href="#" class="text-decoration-none text-muted insta-text">
+						اینستاگرام ممی کالا
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container border-bottom mb-4"></div>
+
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-3">
+					<p class="text-muted">
+						هفت روز هفته ، ۲۴ ساعت شبانه روز پاسخگوی شما هستیم
+					</p>
+					<p class="text-muted">
+						شماره تماس :۶۱۹۳۰۰۰۰ - ۹۵۱۱۹۰۹۵ - ۰۲۱ آدرس ایمیل :info@mamikala.com
+					</p>
+					<a href="#" class="text-decoration-none">
+						<img src="images/bazar.png" alt="Iphones">
+					</a>
+					<a href="#" class="text-decoration-none">
+						<img src="images/sibapp.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- -------------------------------  Footer Top --------------------------------------- -->
+
+
+
+
+
+
+
+
+	<!-- -------------------------------  Footer - Bottom ---------------------------------- -->
+
+	<footer>
+		<div class="container">
+			<div class="row align-items-center py-5">
+				<div class="col-sm-12 col-md-7">
+					<h5 class="h6 mb-3">
+						فروشگاه اینترنتی ممی کالا , بررسی , انتخاب و خرید آنلاین
+					</h5>
+					<p class="text-muted lh-lg">
+						ممی کالا به عنوان یکی از قدیمی ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل کلیدی، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل بودن کالا، موفق شده تا همگام با فروشگاه های معتبر جهان، به بزرگترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به ممی کالا با یک سایت پر از کالا رو به رو می شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می کند در اینجا پیدا خواهید کرد. 
+					</p>
+				</div>
+
+
+
+				<div class="col-sm-12 col-md-5">
+					<div class="row align-items-center">
+						<div class="col-sm-4 text-center">
+							<img src="images/footer_img.JPG" alt="e-namad" class="img-fluid">
+						</div>
+						<div class="col-sm-4 text-center my-2 my-md-0">
+							<img src="images/footer_img2.JPG" alt="e-namad" class="img-fluid">
+						</div>
+						<div class="col-sm-4 text-center">
+							<img src="images/footer_img3.JPG" alt="e-namad" class="img-fluid">
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+
+
+
+			<div class="row pb-5 text-center align-items-center">
+				<div class="col-sm-3 mb-3 mb-md-0">
+					<img src="images/img_footer1.svg" alt="e-namad" class="img-fluid">
+				</div>
+				<div class="col-sm-3 mb-3 mb-md-0">
+					<img src="images/img_footer2.svg" alt="e-namad" class="img-fluid">
+				</div>
+				<div class="col-sm-3 mb-3 mb-md-0">
+					<img src="images/img_footer3.svg" alt="e-namad" class="img-fluid">
+				</div>
+				<div class="col-sm-3">
+					<img src="images/img_footer4.svg" alt="e-namad" class="img-fluid">
+				</div>
+			</div>
+		</div>
+
+		<div class="container border-top border-light">
+			<div class="row">
+				<p class="text-muted text-center my-4">
+					استفاده از مطالب فروشگاه اینترنتی ممی کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران حاج ممد (فروشگاه آنلاین ممی کالا) می باشد. 
+				</p>
+			</div>
+		</div>
+
+	</footer>
+	<!-- -------------------------------  Footer - Bottom ---------------------------------- -->
+
+
+	
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.little-Image').on('click',function(){
+				var src = $(this).attr('src');
+				var alt = $(this).attr('alt');
+				run(src,alt);
+			});
+		});
+
+		function run(src,alt) {
+			var img = $('#big-Image');
+			img.attr('alt',alt);
+			img.fadeOut(250,function(){
+				img.attr('src',src);
+			}).fadeIn(250,function(){
+				img.attr('src',src);
+			});
+		}
+	</script>
+	
+</body>
+</html>
